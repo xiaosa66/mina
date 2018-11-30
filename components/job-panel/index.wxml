@@ -1,0 +1,22 @@
+<!--components/job-panel/job-panel.wxml-->
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="dis_row">
+              <view class="weui-media-box__title">微信小程序运营</view>
+              <view class="tag">实习</view>
+              <view class="tag">长期</view>
+            </view>
+            <view class="weui-media-box__desc dis_row">
+              <view>朝阳区</view>
+              <view>日结</view>
+            </view>
+            <view class="lable-box">
+              <view class="lable">包吃</view>
+              <view class="lable">有提成</view>
+            </view>
+          </view>
+          <view class="weui-cell__ft">
+            <view>180元/天</view>
+            <button size="mini">立即投递</button>
+          </view>
+        </navigator>

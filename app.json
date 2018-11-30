@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/zhishi/index",
+    "pages/me/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "打卡兼职",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#A98d59",
+    "backgroundColor": "#fff",
+    "borderStyle": "dark",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab/zhishi.png",
+        "selectedIconPath": "images/tab/zhishi.png"
+      },
+      {
+        "pagePath": "pages/zhishi/index",
+        "text": "全部兼职",
+        "iconPath": "images/tab/zhishi.png",
+        "selectedIconPath": "images/tab/zhishi.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "images/tab/zhishi.png",
+        "selectedIconPath": "images/tab/zhishi.png"
+      }
+    ]
+  },
+  "debug": true
+}

@@ -1,0 +1,16 @@
+<!--pages/zhishi/index.wxml-->
+<!-- panel -->
+<view class="page__bd">
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__hd">热门职位</view>
+    <view class="weui-panel__bd">
+      <job-panel/>
+    </view>
+    <view class="weui-panel__ft">
+      <view class="weui-cell weui-cell_access weui-cell_link">
+        <view class="weui-cell__bd">查看更多</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+    </view>
+  </view>
+</view>
