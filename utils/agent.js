@@ -5,7 +5,7 @@
 
 
 let Config = {
-  API_HOST: 'https://565a4f76-3469-4cc2-bf98-beb7b1462a3b.mock.pstmn.io',
+  API_HOST: 'https://5dfe7031-6f98-4fc2-856d-493315ebabe8.mock.pstmn.io',
   UPLOAD_URL: 'https://api.dayukeji.xin/p18008/api/common/file',
   STATIC_URL: 'https://api.dayukeji.xin/static/p18002'
 }

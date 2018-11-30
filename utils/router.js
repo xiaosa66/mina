@@ -12,7 +12,7 @@ export default class Address {
    * 返回首页兼职列表
    */
   static getLobList() {
-    const url = `/job?type=SALARY&latitude=12.2&longitude=23.2&_page=1&_count=10&pluralism=[1,2,3]&timeType=LONG`;
+    const url = `/job`;
     return agent.get(url);
   }
 
