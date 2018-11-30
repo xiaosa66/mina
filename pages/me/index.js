@@ -7,7 +7,14 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    grids: [
+      { imgUrl: '../../images/pic_article.png', title: "已投递" },
+      { imgUrl: '../../images/pic_article.png', title: "有意向" },
+      { imgUrl: '../../images/pic_article.png', title: "已录用" },
+      { imgUrl: '../../images/pic_article.png', title: "已结算" },
+    ],
+    
   },
   //事件处理函数
   bindViewTap: function () {
