@@ -1,6 +1,6 @@
 {
   "enablePullDownRefresh": true,
-  "navigationBarTitleText": "我的",
+  "navigationBarTitleText": "购物车",
   "usingComponents": {
     "job-panel": "../../components/job-panel/index"
   }

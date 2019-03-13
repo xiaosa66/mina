@@ -11,12 +11,6 @@ Page({
   data: {
     inputShowed: false,
     inputVal: "",
-    imgUrls: [
-      '../../images/swiper/1.jpeg', 
-      '../../images/swiper/1.jpeg', 
-      '../../images/swiper/1.jpeg', 
-      '../../images/swiper/1.jpeg', 
-    ],
     // grids: [0, 1, 2,3],
     grids: [
       { imgUrl: '../../images/pic_article.png',title:"知识普及"},
@@ -40,7 +34,7 @@ Page({
       icon20: base64.icon20,
       icon60: base64.icon60
     });
-    // this.getJobList();
+    this.getJobList();
   },
   showInput: function() {
     this.setData({

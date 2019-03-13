@@ -1,38 +1,45 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/cart/index",
+    "pages/class/index",
     "pages/zhishi/index",
     "pages/me/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "打卡兼职",
+    "navigationBarTitleText": "醉非遗",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#333333",
-    "selectedColor": "#A98d59",
+    "selectedColor": "#d81e06",
     "backgroundColor": "#fff",
-    "borderStyle": "dark",
+    "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/tab/zhishi.png",
-        "selectedIconPath": "images/tab/zhishi.png"
+        "iconPath": "/images/tab/home.png",
+        "selectedIconPath": "/images/tab/dot.png"
       },
       {
-        "pagePath": "pages/zhishi/index",
-        "text": "全部兼职",
-        "iconPath": "images/tab/zhishi.png",
-        "selectedIconPath": "images/tab/zhishi.png"
+        "pagePath": "pages/class/index",
+        "text": "学堂",
+        "iconPath": "/images/tab/class.png",
+        "selectedIconPath": "/images/tab/dot.png"
+      },      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "/images/tab/cart.png",
+        "selectedIconPath": "/images/tab/dot.png"
       },
       {
         "pagePath": "pages/me/index",
         "text": "我的",
-        "iconPath": "images/tab/zhishi.png",
-        "selectedIconPath": "images/tab/zhishi.png"
+        "iconPath": "/images/tab/me.png",
+        "selectedIconPath": "/images/tab/dot.png"
       }
     ]
   },

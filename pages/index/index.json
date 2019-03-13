@@ -1,6 +1,6 @@
 {
   "enablePullDownRefresh": true,
-  "navigationBarTitleText": "首页",
+  "navigationBarTitleText": "醉非遗",
   "usingComponents": {
     "job-panel": "../../components/job-panel/index"
   }
