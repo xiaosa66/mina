@@ -8,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    tabs: ["北京非遗", "天津非遗", "河北非遗"],
+    tabs: ["MOOC学习", "课堂实践"],
     activeIndex: 1,
     sliderOffset: 0,
     sliderLeft: 0

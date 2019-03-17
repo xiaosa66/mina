@@ -46,7 +46,7 @@
     <swiper>
       <block wx:for="{{imgUrls}}" wx:item="item" wx:key="*this">
         <swiper-item>
-					     <image src="{{item}}" class="swiper-item" style="width:750rpx"/>
+					<image src="{{item}}" class="swiper-item" style="width:750rpx;height:150px"/>
         </swiper-item>
       </block>
     </swiper>
