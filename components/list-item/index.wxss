@@ -1,1 +1,65 @@
 @import "/weui.wxss";
+
+.item-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx;
+    font-size: 26rpx;
+    color: #444;
+    background: white;
+}
+
+.item-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16rpx;
+
+}
+
+.owner_info {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 40rpx;
+    border-radius: 50%;
+    border: 1rpx solid #ccc;
+    margin-right: 16rpx;
+}
+
+.time {
+    color: #666;
+}
+
+.good-img {
+    width: 336rpx;
+    height: 336rpx;
+}
+.img-group {
+    position: relative;
+    display: inline-block;
+}
+
+.location {
+    color: #ccc;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10rpx;
+    background: rgba(10, 10, 10, 0.3);
+    width: 100%;
+}
+.title {
+    margin: 16rpx;
+}
+.item-footer {
+    border-top: 1rpx solid #ddd;
+}
+
+.price {
+    color: #FF5722;
+    margin: 8rpx 16rpx;
+
+}

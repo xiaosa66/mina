@@ -1,1 +1,13 @@
 /* pages/cart/goodsList.wxss */
+
+.goods-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #EFEEEE;
+
+}
+.goods-list-container .list-item {
+    width: 50%;
+}
+

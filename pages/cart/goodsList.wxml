@@ -20,9 +20,9 @@
                     <view class="page__bd">
                         <view class="weui-panel weui-panel_access">
                             <view class="weui-panel__hd">MOOC学习</view>
-                            <view class="weui-panel__bd">
+                            <view class="weui-panel__bd goods-list-container">
                                 <block wx:for="{{goodInfoArray}}">
-                                    <list-item goodInfo="{{item}}"></list-item>
+                                    <list-item goodInfo="{{item}}" class="list-item"></list-item>
                                 </block>
                             </view>
                             <view class="weui-panel__ft">

@@ -1,19 +1,24 @@
-<navigator url="" hover-class="weui-cell_active">
+<navigator url="" hover-class="weui-cell_active" class="item-box">
     <view class="item-header">
         <view class="owner_info">
-            <view class="avatar_box">
-                <image src="{{goodInfo.ownerAvatar}}" alt="" class="avatar"></image>
-            </view>
+            <image src="{{goodInfo.ownerAvatar}}" mode="widthFix" class="avatar"></image>
             <view class="owner_name">{{goodInfo.ownerName}}</view>
         </view>
         <view class="time">{{goodInfo.time}}</view>
     </view>
     <view class="item-body">
-        <image src="{{goodInfo.imgUrl}}" alt="" class="img"></image>
-        <view>{{goodInfo.location}}</view>
-        <view>{{goodInfo.title}}</view>
+        <view class="img-group">
+            <view class="img-box">
+                <image src="{{goodInfo.imgUrl}}" mode="aspectFill" class="good-img"></image>
+            </view>
+            <view class="location">{{goodInfo.location}}</view>
+        </view>
+        <view class="title">{{goodInfo.title}}</view>
     </view>
     <view class="item-footer">
-        <view class="price">{{goodInfo.price}}</view>
+        <view class="price">
+            <text>¥</text>
+            {{goodInfo.price}}
+        </view>
     </view>
 </navigator>

@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e2c00a-bed8-4410-b36e-a9f3866e0658" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/defaultFace.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cart/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/class/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/class/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/class/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/class/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/class/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/class/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/list-item/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/list-item/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/list-item/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/list-item/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/goodsList.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/goodsList.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/goodsList.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/goodsList.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +20,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/list-item/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/list-item/index.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/cart/goodsList.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="182">
+              <caret line="22" column="76" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="76" />
               <folding>
                 <element signature="n#view#0;n#view#0;n#view#0;n#view#0;n#!!top" />
                 <element signature="n#block#0;n#view#0;n#view#0;n#view#0;n#view#0;n#!!top" />
@@ -45,37 +54,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/list-item/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.json">
+        <entry file="file://$PROJECT_DIR$/pages/cart/goodsList.wxss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cart/goodsList.js">
+        <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/list-item/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="-416">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -87,10 +78,12 @@
       <find>zhishi/index</find>
       <find>由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</find>
       <find>北京非遗</find>
+      <find>rpx</find>
     </findStrings>
     <replaceStrings>
       <replace>非遗课堂主要介绍了......</replace>
       <replace>制作兔儿爷的十个步骤</replace>
+      <replace>rpx</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\github\zuifeiyi-mina\pages\zhishi</dir>
@@ -112,18 +105,19 @@
         <option value="$PROJECT_DIR$/pages/index/index.js" />
         <option value="$PROJECT_DIR$/pages/class/index.wxml" />
         <option value="$PROJECT_DIR$/components/list-item/index.js" />
-        <option value="$PROJECT_DIR$/components/list-item/index.wxss" />
-        <option value="$PROJECT_DIR$/components/list-item/index.wxml" />
         <option value="$PROJECT_DIR$/pages/cart/goodsList.json" />
         <option value="$PROJECT_DIR$/pages/cart/goodsList.js" />
         <option value="$PROJECT_DIR$/pages/cart/goodsList.wxml" />
         <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/cart/goodsList.wxss" />
+        <option value="$PROJECT_DIR$/components/list-item/index.wxml" />
+        <option value="$PROJECT_DIR$/components/list-item/index.wxss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="69" />
-    <option name="y" value="-17" />
+    <option name="x" value="61" />
+    <option name="y" value="-20" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -231,18 +225,26 @@
       <workItem from="1541777592486" duration="903000" />
       <workItem from="1552468733543" duration="2808000" />
       <workItem from="1552643823820" duration="920000" />
-      <workItem from="1553059540278" duration="8172000" />
+      <workItem from="1553059540278" duration="17809000" />
     </task>
+    <task id="LOCAL-00001" summary="添加集市页面">
+      <created>1553068289639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553068289639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12847000" />
+    <option name="totallyTimeSpent" value="22484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16997617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -254,7 +256,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -263,6 +265,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加集市页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加集市页面" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -352,9 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/list-item/index.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/list-item/index.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -365,13 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/list-item/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -389,10 +385,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cart/goodsList.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/cart/goodsList.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="182">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="76" />
           <folding>
             <element signature="n#view#0;n#view#0;n#view#0;n#view#0;n#!!top" />
             <element signature="n#block#0;n#view#0;n#view#0;n#view#0;n#view#0;n#!!top" />
@@ -403,10 +413,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
+    <entry file="file://$PROJECT_DIR$/components/list-item/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="104">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/list-item/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
         </state>
       </provider>
     </entry>
