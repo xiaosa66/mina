@@ -1,0 +1,32 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">姑娘...一起去赏宫灯吗？</view>
+    <view class="page__desc">醉非遗 5天前</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <!-- <view class="weui-article__h1">大标题</view> -->
+      <view class="weui-article__section">
+        <!-- <view class="weui-article__title">章标题</view> -->
+        <view class="weui-article__section">
+          <!-- <view class="weui-article__h3">1.1 节标题</view> -->
+          <view class="weui-article__p">
+            北京宫灯，是北京久负盛名的特色传统手工艺品，中国民间风俗"上元灯节"。 千家万户张灯结彩，真是"灯市千光照，花焰万枝开"。 节日用的是红纱灯，此外，北京主要生产一种绢画灯，具有强烈的宫廷色彩。 无论是宫灯还是纱灯，过去多为宫廷使用。 全国宫灯艺人云集北京，形成了以宫纱灯为主的传统特色工艺。 与此同时，北京民间灯彩的制作也很精美，北京灯市口曾有盛极一时的灯市。 清朝末期，北京宫灯曾在巴拿马博览会上获得金牌。
+          </view>
+          <view class="weui-article__p">
+            <image class="weui-article__img" src="../../images/swiper/class.png" mode="aspectFit" style="height: 180px" />
+            <image class="weui-article__img" src="../../images/swiper/class.png" mode="aspectFit" style="height: 180px" />
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <!-- <view class="weui-article__h3">1.2 节标题</view> -->
+          <view class="weui-article__p">
+在清代，宫灯由于珍贵竟然成为皇帝奖赏王公大臣的赐物。
+《清朝野史大观》有载：“定制岁暮时，诸王公大臣，皆有赐予。御前大臣皆赐岁岁平安荷包一、灯盏数对。”
+明清的宫灯主要以细木为框架，雕刻花纹，或以雕漆为架，镶以纱绢、玻璃或玻璃丝。
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
