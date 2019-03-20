@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/cart/goodsList",
     "pages/index/index",
-    "pages/cart/index",
+    "pages/cart/cart",
     "pages/class/index",
-    "pages/zhishi/index",
-    "pages/me/index"
+    "pages/me/index",
+    "pages/article/article"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -29,8 +30,9 @@
         "text": "学堂",
         "iconPath": "/images/tab/class.png",
         "selectedIconPath": "/images/tab/dot.png"
-      },      {
-        "pagePath": "pages/cart/index",
+      },
+      {
+        "pagePath": "pages/cart/cart",
         "text": "购物车",
         "iconPath": "/images/tab/cart.png",
         "selectedIconPath": "/images/tab/dot.png"

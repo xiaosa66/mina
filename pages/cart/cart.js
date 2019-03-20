@@ -13,10 +13,10 @@ Page({
     inputVal: "",
     // grids: [0, 1, 2,3],
     grids: [
-      { imgUrl: '../../images/pic_article.png',title:"知识普及"},
-      { imgUrl: '../../images/pic_article.png',title:"互动社区"},
-      { imgUrl: '../../images/pic_article.png',title:"课堂实践"},
-      { imgUrl: '../../images/pic_article.png',title:"周边市集"},
+      { imgUrl: '../../images/pic_article.png',title:"知识普及",url:'/pages/cart/goodsList'},
+      { imgUrl: '../../images/pic_article.png',title:"互动社区",url:'/pages/cart/goodsList'},
+      { imgUrl: '../../images/pic_article.png',title:"课堂实践",url:'/pages/cart/goodsList'},
+      { imgUrl: '../../images/pic_article.png',title:"周边市集",url:'/pages/cart/goodsList'},
     ],
   },
 

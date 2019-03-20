@@ -9,7 +9,7 @@ Page({
    */
   data: {
     tabs: ["MOOC学习", "课堂实践"],
-    activeIndex: 1,
+    activeIndex: 0,
     sliderOffset: 0,
     sliderLeft: 0
   },
