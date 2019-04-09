@@ -11,7 +11,7 @@
             <view class="img-box">
                 <image src="{{goodInfo.imgUrl}}" mode="aspectFill" class="good-img"></image>
             </view>
-            <view class="location">{{goodInfo.location}}</view>
+            <view class="location-box"><text class="location">{{goodInfo.location}}</text></view>
         </view>
         <view class="title">{{goodInfo.title}}</view>
     </view>

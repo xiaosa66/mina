@@ -43,13 +43,17 @@
     display: inline-block;
 }
 
-.location {
+.location-box {
     color: #ccc;
     position: absolute;
     bottom: 0;
     margin-bottom: 10rpx;
     background: rgba(10, 10, 10, 0.3);
     width: 100%;
+}
+
+.location {
+    padding: 0rpx 16rpx;
 }
 .title {
     margin: 16rpx;
