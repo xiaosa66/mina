@@ -2,6 +2,6 @@
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "非遗学堂",
   "usingComponents": {
-    "job-panel": "../../components/job-panel/index"
+    "article-item": "../../components/article-item/index"
   }
 }

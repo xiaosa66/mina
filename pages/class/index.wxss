@@ -1,1 +1,12 @@
+.title {
+  display: inline-block;
+  width: 224px;
+}
 
+.time {
+  display: inline;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20rpx;
+  color: #777;
+}
