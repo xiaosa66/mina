@@ -2,6 +2,5 @@
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "我的",
   "usingComponents": {
-    "job-panel": "../../components/job-panel/index"
   }
 }

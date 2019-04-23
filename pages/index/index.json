@@ -2,6 +2,5 @@
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "醉非遗",
   "usingComponents": {
-    "job-panel": "../../components/job-panel/index"
   }
 }

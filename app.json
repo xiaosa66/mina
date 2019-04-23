@@ -5,7 +5,8 @@
     "pages/cart/cart",
     "pages/class/index",
     "pages/me/index",
-    "pages/article/article"
+    "pages/article/article",
+    "pages/article/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -45,5 +46,6 @@
       }
     ]
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }

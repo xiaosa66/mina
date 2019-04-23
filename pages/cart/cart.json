@@ -2,6 +2,5 @@
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "购物车",
   "usingComponents": {
-    "job-panel": "../../components/job-panel/index"
   }
 }

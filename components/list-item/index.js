@@ -1,4 +1,6 @@
 
+// 商品列表单项
+
 Component({
   properties: {
     goodInfo: {
