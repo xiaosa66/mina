@@ -1,14 +1,13 @@
 
+
+// 列表项
+
 Component({
   properties: {
-    address: {
+    articleSum: {
       type: Object,
       value: {}
-    },
-    mode: {
-      type: String,
-      value: 'list',
-    },
+    }
   },
   data: {},
   lifetimes: {

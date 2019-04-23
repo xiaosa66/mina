@@ -1,0 +1,21 @@
+@import "/weui.wxss";
+
+.title-time-wrapper {
+  display: flex;
+}
+.title {
+display:inline-block;
+width:400rpx;
+overflow:hidden;
+
+}
+
+.time {
+  display: inline;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20rpx;
+  color: #777;
+  max-width: 190rpx;
+  overflow: hidden;
+}

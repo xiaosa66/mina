@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "知识普及",
+  "usingComponents": {
+    "article-item": "../../components/article-item/index"
+  }
+}
