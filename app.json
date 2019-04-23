@@ -1,12 +1,15 @@
 {
   "pages": [
+    "pages/forum/index",
+    
     "pages/index/index",
     "pages/cart/goodsList",
     "pages/cart/cart",
     "pages/class/index",
     "pages/me/index",
     "pages/article/article",
-    "pages/article/list"
+    "pages/article/list",
+    "pages/forum/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,13 @@
+<!--pages/forum/index.wxml-->
+<import src="/components/loading"/>
+<view class='container'>
+    <block wx:if="{{loaded}}">
+        <block wx:for="{{forumList}}">
+            <forum-item forumSum="{{item}}"></forum-item>
+        </block>
+    </block>
+    <block wx:else>
+        <template is="noView" />
+    </block>
+
+</view>

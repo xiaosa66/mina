@@ -1,0 +1,7 @@
+/* pages/forum/index.wxss */
+
+/* pages/classify/classify.wxss */
+page{
+    background: #EEEDF2
+}
+.container{padding-top:12px;}
