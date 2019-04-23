@@ -20,7 +20,7 @@ Page({
     // grids: [0, 1, 2,3],
     grids: [
       { imgUrl: '../../images/icon/chuan.png',title:"知识普及",url:'/pages/article/list'},
-      { imgUrl: '../../images/icon/dao.png',title:"互动社区",url:'/pages/cart/goodsList'},
+      { imgUrl: '../../images/icon/dao.png',title:"互动社区",url:'/pages/forum/index'},
       { imgUrl: '../../images/icon/jie.png',title:"课堂实践",url:'/pages/cart/goodsList'},
       { imgUrl: '../../images/icon/huo.png',title:"周边市集",url:'/pages/cart/goodsList'},
     ],

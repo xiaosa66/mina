@@ -1,29 +1,24 @@
-<view  class='forumSum'>
-    <navigator url='../detail/detail?id={{forumSum.id}}' class='navigator-forumSum'>
-        <view class='UserName'>
-            <view class='UserPic'>
-                <image src='{{forumSum.avatarurl}}' class='userTou'></image>
+<view class='forumSum'>
+    <navigator url='../forum/detail?id={{forumSum.id}}' class='navigator-forumSum'>
+        <view class="user-box">
+            <view class="avatar-box">
+                <image src='{{forumSum.avatarurl}}' class='avatar'></image>
+            </view>
+            <view class="desc-box">
                 <view class='user'>{{forumSum.username}}</view>
                 <view class='datetime'>{{forumSum.createTime}}</view>
             </view>
         </view>
         <text class="textCms">{{forumSum.content}}</text>
-        <view class='viPhoto' wx:if="{{forumSum.photoUrl.length!=0}}">
-            <view class='wiPhoto'>
-
-                <swiper indicator-dots='true' autoplay='true' interval='3000' duration='500'>
-                    <block wx:for='{{forumSum.photoUrl}}' wx:key=''>
-                        <swiper-forumSum >
-                            <image src='{{forumSum}}' class='poster'></image>
-                        </swiper-forumSum>
-                    </block>
-                </swiper>
-
-
-            </view>
+        <view class="videoBox" catchtap="stop">
+            <video id="myVideo"
+                   src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+                   binderror="videoErrorCallback"></video>
         </view>
         <view class='label'>
-            <label class='time'><image src='http://p92e5qgqt.bkt.clouddn.com/time.png' class='tmimg'></image>{{forumSum.datetime}} </label>
+            <label class='time'>
+                <image src='http://p92e5qgqt.bkt.clouddn.com/time.png' class='tmimg'></image>
+                {{forumSum.datetime}} </label>
         </view>
     </navigator>
 </view>

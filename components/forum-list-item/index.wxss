@@ -9,22 +9,24 @@
 .forumSum{
   width: 86%; height: auto; background: #fff; margin:0 3% 20rpx 3%; padding: 4%
 }
-.UserName{
+.user-box{
   display:flex; flex-direction:row;
   padding-bottom: 20rpx; margin-bottom: 10rpx
 }
-.UserName .UserPic{
-  flex: 4;
-  height: 80rpx;overflow: hidden
-}
-.UserName .UserPic .userTou{
+
+
+.user-box .avatar-box{
   width: 72rpx; height: 72rpx; border-radius: 50%; border: 2rpx #e3e3e3 solid; padding: 2rpx; background:#fff;
   float: left
 }
-.UserName .UserPic .datetime{
+.user-box .avatar-box .avatar {
+  width: 80rpx;
+  height: 80rpx;
+}
+.user-box .datetime{
   font-size: 25rpx;color: #CDCDCD;padding-right: 5rpx
 }
-.UserName .UserPic .user{
+.user-box .user{
   font-size: 35rpx;padding-right: 5rpx
 }
 .textCms{ width: 100%; color: #333;}
@@ -35,8 +37,12 @@
 .poster{
   width: 100%; opacity:0.6; z-index: 8
 }
-.label{ font-size: 30rpx; color: #CDCDCD; width: 100%; padding-top: 20rpx; border-top: 2rpx #F5F5F5 solid; margin-top: 40rpx; display:flex;padding-left:82%}
+.label{ font-size: 30rpx; color: #CDCDCD; width: 100%; padding-top: 20rpx; border-top: 2rpx #F5F5F5 solid; margin-top: 40rpx; display:flex;}
 .label .time{
   text-align: right; overflow: hidden;padding-right:0px
 }
 .label .tmimg{ width: 18px; height: 18px; padding-right: 8rpx;}
+
+.videoBox {
+  text-align: center;
+}

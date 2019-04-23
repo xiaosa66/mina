@@ -20,6 +20,7 @@ Component({
     },
   },
   methods: {
+    stop(){},
 
   },
 });
