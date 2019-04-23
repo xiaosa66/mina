@@ -5,3 +5,7 @@ page{
     background: #EEEDF2
 }
 .container{padding-top:12px;}
+
+.list-wrapper {
+    width: 100%;
+}

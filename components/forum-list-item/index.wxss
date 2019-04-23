@@ -6,7 +6,7 @@
 .swiper .pic{
   width: 86%;height: auto
 }
-.item{
+.forumSum{
   width: 86%; height: auto; background: #fff; margin:0 3% 20rpx 3%; padding: 4%
 }
 .UserName{
