@@ -2,13 +2,17 @@
   "pages": [
     "pages/index/index",
     "pages/forum/index",
-    "pages/cart/goodsList",
-    "pages/cart/cart",
+    "pages/mall/goodsList",
+    "pages/mall/selectGoods",
+    "pages/mall/list",
+    "pages/mall/cart",
+    "pages/mall/detail",
     "pages/class/index",
     "pages/me/index",
     "pages/article/article",
     "pages/article/list",
-    "pages/forum/detail"
+    "pages/forum/detail",
+    "pages/waiting/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -35,7 +39,7 @@
         "selectedIconPath": "/images/tab/dot.png"
       },
       {
-        "pagePath": "pages/cart/cart",
+        "pagePath": "pages/mall/cart",
         "text": "购物车",
         "iconPath": "/images/tab/cart.png",
         "selectedIconPath": "/images/tab/dot.png"

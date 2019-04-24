@@ -23,3 +23,7 @@
 .weui-grid {
   width: 25%;
 }
+
+.my-item-hover {
+  background: #999;
+}

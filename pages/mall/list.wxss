@@ -1,0 +1,3 @@
+/* pages/phone/phone.wxss */
+@import "/components/slide/slide.wxss";
+@import "/components/goods_list/goods_list.wxss";

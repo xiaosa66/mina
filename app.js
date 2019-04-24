@@ -1,6 +1,16 @@
 //app.js
+
+import mock from "./utils/mock";
+
+
+
+
 App({
   onLaunch: function () {
+
+
+    Object.assign(this.globalData, mock)
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -32,6 +42,8 @@ App({
         }
       }
     })
+
+    console.log('appdata', this.globalData);
   },
   globalData: {
       userInfo: null,
