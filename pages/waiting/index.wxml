@@ -1,2 +1,11 @@
 <!--pages/waiting/index.wxml-->
-<text>pages/waiting/index.wxml</text>
+<view class="page">
+  <view class="page__bd">
+    <view class='no_order_img_box'>
+      <image class="no_order_img" src='../../images/tab/no_order.png' mode="widthFix"></image>
+    </view>
+    <view class='lable_box'>
+      <h3>功能完善中</h3>
+    </view>
+  </view>
+</view>

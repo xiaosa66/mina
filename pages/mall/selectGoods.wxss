@@ -33,7 +33,7 @@
 .weui-cell__bd .meta {
     margin-top: 10rpx;
     font-size: 11pt;
-    color: #ff6700;
+    color: #d81e06;
 }
 
 .subtitle {
@@ -56,8 +56,8 @@
 .on-sale text:nth-child(2) {
     margin-left: 40rpx;
     padding: 0 20rpx;
-    color: #ff6700;
-    border: 1px solid #ff6700;
+    color: #d81e06;
+    border: 1px solid #d81e06;
     border-radius: 4rpx;
 }
 
@@ -118,12 +118,12 @@
     margin-left: 0;
 }
 .select-color label.on{
-    color: #ff6700;
-    border: 1px solid #ff6700;
+    color: #d81e06;
+    border: 1px solid #d81e06;
 }
 .select-version label.on{
-    color: #ff6700;
-    border: 1px solid #ff6700;
+    color: #d81e06;
+    border: 1px solid #d81e06;
 }
 /*数量选择样式*/
 
@@ -166,5 +166,5 @@
     line-height: 100rpx;
     text-align: center;
     color: #fff;
-    background: #ff6700;
+    background: #d81e06;
 }

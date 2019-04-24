@@ -69,6 +69,8 @@
         <view class="weui-panel weui-panel_access">
             <view class="weui-panel__hd">推荐阅读</view>
             <view class="weui-panel__bd">
+
+            
                 <navigator url="/pages/article/article" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                         <image class="weui-media-box__thumb" src="{{icon60}}" />
@@ -80,6 +82,8 @@
                             节日用的是红纱灯，此外，北京主要生产一种绢画灯，具有强烈的宫廷色彩。</view>
                     </view>
                 </navigator>
+
+
                 <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
                         <image class="weui-media-box__thumb" src="{{icon60}}" />
@@ -89,6 +93,8 @@
                         <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
                     </view>
                 </navigator>
+
+
             </view>
             <view class="weui-panel__ft">
                 <view class="weui-cell weui-cell_access weui-cell_link">
@@ -97,7 +103,9 @@
                 </view>
             </view>
         </view>
-        <view class="weui-panel weui-panel_access">
+
+
+        <!-- <view class="weui-panel weui-panel_access">
             <view class="weui-panel__hd">文字组合列表</view>
             <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_text">
@@ -152,6 +160,6 @@
                     </view>
                 </view>
             </view>
-        </view>
+        </view> -->
     </view>
 </view>

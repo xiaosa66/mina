@@ -22,6 +22,12 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindWaitingTap: function () {
+    wx.navigateTo({
+      url: '../waiting/index'
+    })
+  },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

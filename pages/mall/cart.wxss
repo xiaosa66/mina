@@ -54,13 +54,13 @@
 .total-price text{
     font-size: 12pt;
     padding: 20rpx;
-    color: #ff6700;
+    color: #d81e06;
 }
 .btn-primary.pay{
     flex: 1;
     font-size: 14pt;
     color: #fff;
-    background: #ff6700;
+    background: #d81e06;
 }
 
 /*购物车列表样式*/
@@ -94,7 +94,7 @@
     margin-left: 10rpx;
 }
 .cart-item .item-price{
-    color: #ff6700;
+    color: #d81e06;
 }
 .cart-list image{
     width: 100rpx;
@@ -102,7 +102,7 @@
     display: inline-block;
 }
 .del-cart-item {
-    background-color: #ff6700;
+    background-color: #d81e06;
     width: 150rpx;
     height: 150rpx;
     display: flex;

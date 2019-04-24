@@ -1,1 +1,18 @@
 /* pages/waiting/index.wxss */
+.weui-grid {
+  width: 25%;
+}
+
+.no_order_img_box {
+  padding-top: 200rpx;
+text-align: center;
+}
+.lable_box {
+text-align: center;
+color: #888;
+}
+
+
+.no_order_img {
+  width: 300rpx;
+}

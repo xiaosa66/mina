@@ -1,7 +1,7 @@
                                 <navigator url="../article/article?id={{articleSum.id}}" class="weui-media-box weui-media-box_appmsg"
                                            hover-class="weui-cell_active">
                                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
-                                        <image class="weui-media-box__thumb" src="{{articleSum.coverImg}}"/>
+                                        <image class="weui-media-box__thumb roundImg" src="{{articleSum.coverImg}}"/>
                                     </view>
                                     <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
                                         <view class="weui-media-box__title title-time-wrapper">
