@@ -1,6 +1,12 @@
 /* pages/article/article.wxss */
 page{
-    background-color: #FFFFFF;
+}
+.page-container {
+    background-color: #ddd;
+
+}
+.item-wrapper {
+  background: #ccc;
 }
 image{
     margin: 4px 0;

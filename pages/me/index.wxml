@@ -14,28 +14,28 @@
        <view class="weui-cells weui-cells_after-title" bindtap='bindWaitingTap'>
 
 
-            <view class="weui-cell weui-cell_access">
+            <view  hover-class="my-item-hover"  class="weui-cell weui-cell_access">
                 <view class="weui-cell__bd">
-                    <view  hover-class="my-item-hover" style="display: inline-block; vertical-align: middle">我的消息</view>
+                    <view style="display: inline-block; vertical-align: middle">我的消息</view>
                     <view class="weui-badge" style="margin-left: 5px;">8</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </view>
-            <view class="weui-cell weui-cell_access">
+            <view  hover-class="my-item-hover" class="weui-cell weui-cell_access">
                 <view class="weui-cell__bd">
-                    <view  hover-class="my-item-hover" style="display: inline-block; vertical-align: middle">我的学习</view>
+                    <view  style="display: inline-block; vertical-align: middle">我的学习</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </view>
-            <view class="weui-cell weui-cell_access">
+            <view  hover-class="my-item-hover" class="weui-cell weui-cell_access">
                 <view class="weui-cell__bd">
-                    <view   hover-class="my-item-hover" style="display: inline-block; vertical-align: middle">我的赞</view>
+                    <view  style="display: inline-block; vertical-align: middle">我的赞</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </view>
-            <view class="weui-cell weui-cell_access">
+            <view   hover-class="my-item-hover" class="weui-cell weui-cell_access">
                 <view class="weui-cell__bd">
-                    <view hover-class="my-item-hover" style="display: inline-block; vertical-align: middle">设置</view>
+                    <view style="display: inline-block; vertical-align: middle">已购买</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </view>

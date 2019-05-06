@@ -58,11 +58,11 @@
                 <view class="weui-cell__bd">
                     <view class="select-number">
                         <view class="minus" bindtap="minusCount">
-                            <image src="../../assets/icons/minus.png" />
+                            <image src="../../images/icon/minus.png" />
                         </view>
                         <view class="number">{{select_num?select_num:1}}</view>
                         <view class="add" bindtap="addCount">
-                            <image src="../../assets/icons/add.png" />
+                            <image src="../../images/icon/plus.png" />
                         </view>
                     </view>
                 </view>

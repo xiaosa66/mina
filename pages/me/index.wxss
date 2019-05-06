@@ -25,5 +25,5 @@
 }
 
 .my-item-hover {
-  background: #999;
+  background: #ddd;
 }

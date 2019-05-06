@@ -1,12 +1,13 @@
-                                <navigator url="../article/article?id={{articleSum.id}}" class="weui-media-box weui-media-box_appmsg"
+                                <navigator url="../article/article?article={{articleSum.id}}" class=" item-box  weui-media-box weui-media-box_appmsg"
                                            hover-class="weui-cell_active">
                                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
-                                        <image class="weui-media-box__thumb roundImg" src="{{articleSum.coverImg}}"/>
+                                        <image class="weui-media-box__thumb roundImg" src="{{articleSum.coverImg}}" mode='aspectFill'/>
                                     </view>
                                     <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
                                         <view class="weui-media-box__title title-time-wrapper">
                                         <view class="title">{{articleSum.title}}</view>
-                                        <view class="time">{{articleSum.time}}</view>
+                                        <view class="time-box"><view class="time">{{articleSum.time}}</view></view>
+                                        
                                         </view>
                                         <view class="weui-media-box__desc">{{articleSum.desc}}</view>
                                     </view>

@@ -2,5 +2,5 @@
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "醉非遗",
   "usingComponents": {
-  }
-}
+    "article-item": "../../components/article-item/index"
+  }}

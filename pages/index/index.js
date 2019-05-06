@@ -24,14 +24,18 @@ Page({
       { imgUrl: '../../images/icon/jie.png', title: "课堂实践", url:'/pages/forum/index'},
       { imgUrl: '../../images/icon/huo.png',title:"周边市集",url:'/pages/mall/list'},
     ],
+    articleArray: [
+
+      { "id": "从小到大按 12345 数,递增", "coverImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557159718479&di=f7f90e93d4b62b61ca36ca813b4116cd&imgtype=0&src=http%3A%2F%2Fn1.cmsfile.pg0.cn%2Fgroup4%2FM00%2F04%2F6C%2FCgoOFVn2jEuAaYXfAAClbs4Hbn4874.jpg", "title": "文章标题", "time": "写作时间  比如 前天 昨天 2019-08-07 等 任选即可","author":"作者名称", "desc": "文章的缩略描述","content":"在这里填写文章内容"},
+      { "id": "从小到大按 12345 数,递增", "coverImg": "文章的图片地址(可不填)", "title": "文章标题", "time": "写作时间  比如 前天 昨天 2019-08-07 等 任选即可","author":"作者名称", "desc": "文章的缩略描述","content":"在这里填写文章内容"},
+      { "id": "从小到大按 12345 数,递增", "coverImg": "文章的图片地址(可不填)", "title": "文章标题", "time": "写作时间  比如 前天 昨天 2019-08-07 等 任选即可","author":"作者名称", "desc": "文章的缩略描述","content":"在这里填写文章内容"},
+      { "id": "从小到大按 12345 数,递增", "coverImg": "文章的图片地址(可不填)", "title": "文章标题", "time": "写作时间  比如 前天 昨天 2019-08-07 等 任选即可","author":"作者名称", "desc": "文章的缩略描述","content":"在这里填写文章内容"},
+      { "id": "从小到大按 12345 数,递增", "coverImg": "文章的图片地址(可不填)", "title": "文章标题", "time": "写作时间  比如 前天 昨天 2019-08-07 等 任选即可","author":"作者名称", "desc": "文章的缩略描述","content":"在这里填写文章内容"},
+      { "id": "从小到大按 12345 数,递增", "coverImg": "文章的图片地址(可不填)", "title": "文章标题", "time": "写作时间  比如 前天 昨天 2019-08-07 等 任选即可","author":"作者名称", "desc": "文章的缩略描述","content":"在这里填写文章内容"},
+
+    ]
   },
 
-
-
-
-  getJobList(){
-    Router.getLobList().then((resp) => {})
-  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -40,7 +44,6 @@ Page({
       icon20: base64.icon20,
       icon60: base64.icon60
     });
-    // this.getJobList();
   },
   showInput: function() {
     this.setData({

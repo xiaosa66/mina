@@ -1,5 +1,10 @@
 @import "/weui.wxss";
-
+.item-box {
+  margin: 6px;
+  border-radius: 8px;
+  color: #333;
+  background: white;
+}
 .title-time-wrapper {
   display: flex;
 }
@@ -9,15 +14,21 @@ width:380rpx;
 overflow:hidden;
 
 }
+.time-box {
 
+}
 .time {
-  display: inline;
-  justify-content: center;
-  align-items: flex-start;
-  padding-left: 20rpx;
-  color: #777;
-  max-width: 190rpx;
-  overflow: hidden;
+justify-content:center;
+padding-left:20rpx;
+color:#777;
+max-width:190rpx;
+font-size:13px;
+display:flex;
+align-items:center;
+overflow: hidden;
+white-space: nowrap;
+text-overflow:ellipsis;
+
 }
 .roundImg {
    border-radius:50%;

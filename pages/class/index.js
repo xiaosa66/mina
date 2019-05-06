@@ -8,7 +8,7 @@ Page({
      * 页面的初始数据
      */
     data: {
-        tabs: ["MOOC学习", "课堂实践"],
+        tabs: ["MOOC学习", "课堂宣教"],
         activeIndex: 0,
         sliderOffset: 0,
         sliderLeft: 0,

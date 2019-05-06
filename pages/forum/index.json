@@ -1,6 +1,6 @@
 {
   "enablePullDownRefresh": true,
-  "navigationBarTitleText": "论坛",
+  "navigationBarTitleText": "互动社区",
   "usingComponents": {
     "forum-item": "../../components/forum-list-item/index"
   }

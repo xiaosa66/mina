@@ -18,6 +18,12 @@ Page({
       url: "../mall/list"
     })
   },
+
+  checkOut() {
+    wx.navigateTo({
+      url: '/pages/waiting/index',
+    })},
+
   selectList(e) {
     let selectAllStatus = this.data.selectAllStatus;
     const index = e.currentTarget.dataset.index;

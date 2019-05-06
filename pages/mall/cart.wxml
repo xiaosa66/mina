@@ -19,8 +19,8 @@
                         mode="aspectFill" />
                     <text class="item-title">{{item.goods_name}} {{item.memory}}</text>
                     <text class="item-num">{{item.color}}</text>
-                    <text class="item-price">{{item.select_num}}×</text>
-                    <text class="item-price">{{item.price}}</text>
+                    <text class="item-num">{{item.select_num}}×</text>
+                    <text class="item-price">¥{{item.price}}</text>
                     <view class="del-cart-item" catchtap="delCartItem" data-index="{{index}}">删除</view>
                 </view>
             </view>

@@ -9,34 +9,39 @@ Page({
       {
         "id": "1",
         "username": "潇洒",
-        "createTime": "yesterday",
+        "createTime": "昨天",
         "content": "略略略略略略",
         "datetime": "2019/5/21",
-        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg"
+        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg",
+        "videoUrl": "http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
       },
       {
         "id": "1",
         "username": "潇洒",
-        "createTime": "yesterday",
+        "createTime": "昨天",
         "content": "略略略略略略",
         "datetime": "2019/5/21",
-        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg"
-      }, {
-        "id": "1",
-        "username": "潇洒",
-        "createTime": "yesterday",
-        "content": "略略略略略略",
-        "datetime": "2019/5/21",
-        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg"
-      }, {
-        "id": "1",
-        "username": "潇洒",
-        "createTime": "yesterday",
-        "content": "略略略略略略",
-        "datetime": "2019/5/21",
-        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg"
+        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg",
+        "videoUrl": "http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
       },
-
+      {
+        "id": "1",
+        "username": "潇洒",
+        "createTime": "昨天",
+        "content": "略略略略略略",
+        "datetime": "2019/5/21",
+        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg",
+        "videoUrl": "http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+      },
+      {
+        "id": "1",
+        "username": "潇洒",
+        "createTime": "昨天",
+        "content": "略略略略略略",
+        "datetime": "2019/5/21",
+        "avatarurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2632691548,964849237&fm=27&gp=0.jpg",
+        "videoUrl": "http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+      },
     ],
     loaded: true
   },

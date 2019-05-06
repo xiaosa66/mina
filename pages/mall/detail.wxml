@@ -61,7 +61,7 @@
         <view class="cart" bindtap="goCart">
             <!-- <view ></view> -->
             <text class="badge" wx:if="{{goods_num>0}}">{{goods_num}}</text>
-            <image src="../../assets/icons/cart.png" />
+            <image src="../../images/tab/cart.png" />
         </view>
         <view class="add-cart" bindtap="toSelect" data-id="{{goods.id}}">加入购物车</view>
         <view class="btn-buy-now">立即购买</view>

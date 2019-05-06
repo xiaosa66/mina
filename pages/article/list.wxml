@@ -1,7 +1,7 @@
 <view class="page-container">
     <view class="page__bd">
         <view class="weui-panel weui-panel_access">
-            <view class="weui-panel__hd">MOOC学习</view>
+            <!-- <view class="weui-panel__hd">MOOC学习</view> -->
             <view class="weui-panel__bd">
                 <block wx:for="{{articleArray}}">
                     <article-item articleSum="{{item}}"></article-item>
